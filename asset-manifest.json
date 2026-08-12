@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/vivotech_client-pages/static/css/main.d6c43b33.css",
+    "main.js": "/vivotech_client-pages/static/js/main.daa3a178.js",
+    "static/media/logo-no-background.png": "/vivotech_client-pages/static/media/logo-no-background.ec250098a664495adb56.png",
+    "index.html": "/vivotech_client-pages/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.d6c43b33.css",
+    "static/js/main.daa3a178.js"
+  ]
+}
