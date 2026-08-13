@@ -1,14 +1,12 @@
 {
   "files": {
-    "main.css": "/vivotech_client-pages/static/css/main.5d15c66b.css",
-    "main.js": "/vivotech_client-pages/static/js/main.0a0debdf.js",
+    "main.css": "/vivotech_client-pages/static/css/main.b4f8995d.css",
+    "main.js": "/vivotech_client-pages/static/js/main.55ea9c8a.js",
     "static/media/logo-no-background.png": "/vivotech_client-pages/static/media/logo-no-background.ec250098a664495adb56.png",
-    "index.html": "/vivotech_client-pages/index.html",
-    "main.5d15c66b.css.map": "/vivotech_client-pages/static/css/main.5d15c66b.css.map",
-    "main.0a0debdf.js.map": "/vivotech_client-pages/static/js/main.0a0debdf.js.map"
+    "index.html": "/vivotech_client-pages/index.html"
   },
   "entrypoints": [
-    "static/css/main.5d15c66b.css",
-    "static/js/main.0a0debdf.js"
+    "static/css/main.b4f8995d.css",
+    "static/js/main.55ea9c8a.js"
   ]
 }
