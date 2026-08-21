@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/vivotech_client-pages/static/css/main.b4f8995d.css",
-    "main.js": "/vivotech_client-pages/static/js/main.4cca727d.js",
+    "main.js": "/vivotech_client-pages/static/js/main.3ad89c54.js",
     "static/media/logo-no-background.png": "/vivotech_client-pages/static/media/logo-no-background.ec250098a664495adb56.png",
     "index.html": "/vivotech_client-pages/index.html"
   },
   "entrypoints": [
     "static/css/main.b4f8995d.css",
-    "static/js/main.4cca727d.js"
+    "static/js/main.3ad89c54.js"
   ]
 }
