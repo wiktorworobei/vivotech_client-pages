@@ -329,6 +329,84 @@ tbody tr:last-child td { border-bottom: 0; }
 .result-grid strong { color: var(--primary); font-size: 20px; font-weight: 750; }
 .result-grid span { color: var(--muted); font-size: 10px; }
 .payroll-result { grid-template-columns: repeat(3, 1fr); }
+.generation-results { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.generation-results .has-error { background: var(--danger-soft); }
+.generation-results .has-error strong { color: var(--danger); }
+.manual-mark { width: fit-content; margin-top: 5px; padding: 2px 5px; border-radius: 5px; color: var(--primary) !important; background: var(--primary-soft); font-size: 8px !important; font-weight: 800; text-transform: uppercase; }
+
+.attendance-actions > .panel { min-height: 430px; }
+.selection-summary { margin-bottom: 16px; padding: 12px; border: 1px dashed var(--line-strong); border-radius: 10px; display: flex; align-items: center; gap: 11px; background: var(--surface-muted); }
+.selection-summary.ready { border-style: solid; border-color: var(--primary-border); background: var(--primary-soft); }
+.selection-summary > span, .period-empty > span { width: 32px; height: 32px; flex: 0 0 auto; border-radius: 9px; display: grid; place-items: center; color: var(--primary); background: var(--surface); border: 1px solid var(--primary-border); font-size: 11px; font-weight: 900; }
+.selection-summary strong, .selection-summary small { display: block; }
+.selection-summary strong { font-size: 12px; }
+.selection-summary small { margin-top: 3px; color: var(--muted); font-size: 10px; }
+.advanced-options { border: 1px solid var(--line); border-radius: 9px; background: var(--surface-muted); }
+.advanced-options summary { padding: 11px 13px; color: var(--muted); font-size: 11px; font-weight: 700; cursor: pointer; }
+.advanced-options > div { padding: 0 13px 13px; display: grid; gap: 10px; }
+
+.period-empty { min-height: 295px; padding: 25px; display: grid; place-items: center; align-content: center; text-align: center; }
+.period-empty h3 { margin: 13px 0 5px; font-size: 15px; }
+.period-empty p { max-width: 390px; margin: 0 0 16px; color: var(--muted); font-size: 11px; line-height: 1.55; }
+.period-workflow { display: grid; gap: 16px; }
+.period-overview { padding: 13px 14px; border: 1px solid var(--primary-border); border-radius: 10px; display: flex; align-items: center; justify-content: space-between; gap: 12px; background: var(--primary-soft); }
+.period-overview small, .period-overview strong { display: block; }
+.period-overview small { margin-bottom: 4px; color: var(--muted); font-size: 9px; font-weight: 750; letter-spacing: .05em; text-transform: uppercase; }
+.period-overview strong { font-size: 13px; }
+.approval-progress { margin: 2px 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); list-style: none; }
+.approval-progress li { position: relative; display: grid; justify-items: center; gap: 6px; color: var(--muted); text-align: center; }
+.approval-progress li::before { content: ""; height: 2px; position: absolute; top: 13px; left: -50%; right: 50%; background: var(--line); }
+.approval-progress li:first-child::before { display: none; }
+.approval-progress li.complete::before, .approval-progress li.current::before { background: var(--primary); }
+.approval-progress span { width: 27px; height: 27px; z-index: 1; border: 1px solid var(--line-strong); border-radius: 50%; display: grid; place-items: center; background: var(--surface); font-size: 9px; font-weight: 850; }
+.approval-progress li.complete span, .approval-progress li.current span { color: var(--color-on-primary, #fff); border-color: var(--primary); background: var(--primary); }
+.approval-progress li.current small { color: var(--ink); font-weight: 800; }
+.approval-progress small { font-size: 9px; }
+.period-next-action { padding: 15px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface-muted); }
+.period-next-action strong { display: block; font-size: 13px; }
+.period-next-action p { margin: 5px 0 13px; color: var(--muted); font-size: 10px; line-height: 1.5; }
+.period-scope-note { margin: 0; color: var(--muted); font-size: 9px; line-height: 1.5; }
+
+.timesheet-table-panel { min-height: 280px; }
+.timesheet-summary { margin: 0 0 16px; grid-template-columns: repeat(6, minmax(0, 1fr)); }
+.timesheet-table-wrap { max-height: 560px; }
+.timesheet-table { min-width: 1180px; }
+.timesheet-table thead { position: sticky; top: 0; z-index: 2; }
+.timesheet-table tbody tr:last-child td { border-bottom: 0; }
+.timesheet-table tbody tr:hover td { background: var(--surface-muted); }
+.manual-timesheet-row td { background: var(--primary-soft); }
+.warning-timesheet-row td { background: var(--warning-soft); }
+.manual-source { color: var(--primary); font-size: 10px; text-transform: uppercase; }
+.timesheet-status { display: inline-flex; padding: 4px 7px; border-radius: 999px; color: var(--muted); background: var(--surface-soft); font-size: 10px; font-weight: 750; white-space: nowrap; }
+.status-work { color: var(--success); background: var(--success-soft); }
+.status-missingschedule, .status-unexcusedabsence { color: var(--color-warning-text, var(--warning)); background: var(--warning-soft); }
+.status-vacation, .status-sickleave, .status-excusedabsence, .status-partialexcusedabsence { color: var(--primary); background: var(--primary-soft); }
+
+.payroll-setup > .panel { min-height: 440px; }
+.inline-loading { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 10px; }
+.inline-loading .spinner-small { border-color: var(--line); border-top-color: var(--primary); }
+.payroll-rate-list { max-height: 185px; overflow-y: auto; display: grid; border: 1px solid var(--line); border-radius: 9px; background: var(--surface); }
+.payroll-rate-list > div { padding: 10px 11px; border-bottom: 1px solid var(--line); }
+.payroll-rate-list > div:last-child { border: 0; }
+.payroll-rate-list strong, .payroll-rate-list small { display: block; }
+.payroll-rate-list strong { font-size: 11px; }
+.payroll-rate-list small { margin-top: 3px; color: var(--muted); font-size: 9px; line-height: 1.45; }
+.payroll-rate-form { padding-top: 12px; border-top: 1px solid var(--line); }
+.payroll-statement { display: grid; gap: 16px; }
+.statement-heading { padding: 15px 16px; display: flex; align-items: center; justify-content: space-between; gap: 20px; border: 1px solid var(--primary-border); border-radius: 11px; background: var(--primary-soft); }
+.statement-heading > div:first-child strong, .statement-heading > div:first-child small, .statement-total strong, .statement-total small { display: block; }
+.statement-heading > div:first-child strong { font-size: 15px; }
+.statement-heading > div:first-child small { margin-top: 4px; color: var(--muted); font-size: 10px; }
+.statement-total { flex: 0 0 auto; text-align: right; }
+.statement-total small { color: var(--muted); font-size: 9px; font-weight: 750; letter-spacing: .05em; text-transform: uppercase; }
+.statement-total strong { margin-top: 3px; color: var(--primary); font-size: 23px; }
+.payroll-metrics { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.payroll-metrics > div { min-height: 78px; padding: 11px; border: 1px solid var(--line); border-radius: 9px; display: grid; align-content: center; background: var(--surface-muted); }
+.payroll-metrics span, .payroll-metrics strong, .payroll-metrics small { display: block; }
+.payroll-metrics span { color: var(--muted); font-size: 9px; font-weight: 750; letter-spacing: .05em; text-transform: uppercase; }
+.payroll-metrics strong { margin-top: 6px; font-size: 14px; }
+.payroll-metrics small { margin-top: 2px; color: var(--muted); font-size: 8px; }
+.payroll-statement td small { color: var(--muted); font-size: 9px; }
 
 .workflow-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 9px; }
 .workflow-cards button { min-height: 118px; padding: 13px; border: 1px solid var(--line); border-radius: 10px; color: var(--ink); background: var(--surface-muted); display: grid; align-content: center; justify-items: start; text-align: left; }
@@ -382,6 +460,8 @@ tbody tr:last-child td { border-bottom: 0; }
   .dashboard-grid, .two-column, .report-layout { grid-template-columns: 1fr; }
   .calendar-day { min-height: 90px; }
   .audit-card dl { grid-template-columns: repeat(2, 1fr); }
+  .attendance-actions > .panel { min-height: 0; }
+  .payroll-setup > .panel { min-height: 0; }
 }
 
 @media (max-width: 900px) {
@@ -436,6 +516,8 @@ tbody tr:last-child td { border-bottom: 0; }
   .form-grid, .form-grid.three, .filter-row { grid-template-columns: 1fr; }
   .compact-grid { max-width: none; }
   .summary-strip { gap: 14px; flex-wrap: wrap; }
+  .statement-heading { align-items: flex-start; }
+  .payroll-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .calendar-toolbar { grid-template-columns: 1fr; }
   .month-picker { grid-row: 2; }
   .workflow-cards { grid-template-columns: 1fr; }
@@ -450,6 +532,9 @@ tbody tr:last-child td { border-bottom: 0; }
   .modal-backdrop { padding: 10px; }
   .modal { max-height: calc(100vh - 20px); padding: 17px; }
   .result-grid { grid-template-columns: 1fr 1fr; }
+  .generation-results { grid-template-columns: 1fr 1fr; }
+  .timesheet-summary { grid-template-columns: 1fr 1fr; }
+  .approval-progress small { font-size: 8px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
