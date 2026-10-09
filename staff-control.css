@@ -555,3 +555,27 @@ tbody tr:last-child td { border-bottom: 0; }
 .sidebar nav button.active { box-shadow: inset 3px 0 0 var(--primary); }
 .sidebar-collapsed nav button.active { box-shadow: none; }
 
+
+.telegram-page { display: grid; gap: 20px; }
+.telegram-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.telegram-steps button { display: flex; align-items: center; gap: 12px; padding: 16px; color: inherit; font: inherit; text-align: left; cursor: pointer; background: var(--surface-muted); border: 1px solid var(--line); border-radius: 16px; }
+.telegram-steps button[aria-current="step"] { background: var(--primary-soft); border-color: var(--primary); }
+.telegram-steps button.is-done { background: var(--success-soft); border-color: var(--primary-border); }
+.telegram-steps button:focus-visible, .telegram-help summary:focus-visible { outline: 3px solid var(--primary); outline-offset: 3px; }
+.telegram-step-number { display: grid; place-items: center; flex: 0 0 32px; height: 32px; border-radius: 50%; background: var(--surface-soft); font-weight: 700; }
+.telegram-steps .is-done .telegram-step-number { background: var(--primary-soft); color: var(--primary); }
+.telegram-steps strong, .telegram-steps small { display: block; }
+.telegram-steps small { margin-top: 4px; color: var(--muted); }
+.telegram-step-panel { min-width: 0; scroll-margin-top: 24px; }
+.telegram-help { margin-bottom: 16px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface-muted); }
+.telegram-help summary { cursor: pointer; font-weight: 600; }
+.telegram-help[open] summary { margin-bottom: 12px; }
+.telegram-help ol { padding-left: 22px; margin: 12px 0; }
+.telegram-help li { margin: 8px 0; line-height: 1.5; }
+.telegram-help p, .telegram-link-card p { margin: 0; line-height: 1.5; }
+.telegram-help a { color: var(--primary); text-decoration: underline; }
+.telegram-help code { padding: 2px 5px; background: var(--surface-soft); border-radius: 4px; }
+.telegram-connection { display: grid; gap: 6px; padding: 12px 16px; border-radius: 12px; background: var(--success-soft); line-height: 1.5; }
+.telegram-link-card { display: grid; gap: 14px; padding: 16px; border: 1px solid var(--primary-border); border-radius: 14px; background: var(--primary-soft); }
+.telegram-muted { color: var(--muted); font-size: 13px; line-height: 1.5; }
+@media (max-width: 760px) { .telegram-steps { grid-template-columns: 1fr; } .telegram-steps button { padding: 12px; } }
