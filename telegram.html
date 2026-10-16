@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+  <meta name="theme-color" content="#f3f6f8"/>
+  <title>VivoTech CRM · Заказы</title>
+  <script defer src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script>try{var theme=localStorage.getItem('vivotech.telegram.theme');document.documentElement.dataset.telegramTheme=theme==='light'||theme==='dark'?theme:matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}catch(e){}</script>
+  <style>body{margin:0;background:#f3f6f8;color:#18272d;font:16px system-ui,sans-serif}[data-telegram-theme=dark] body{background:#10171f;color:#eff5f7}.tg-boot{max-width:400px;margin:18vh auto;padding:28px}.tg-boot-mark{display:grid;place-items:center;width:52px;height:52px;border-radius:17px;background:#b7f0d1;color:#173d30;font-size:26px;font-weight:700}.tg-boot h1{font-size:28px;letter-spacing:-1px;margin:20px 0 10px}.tg-boot p{color:#738994;font-size:14px;line-height:1.6}.tg-boot button{background:#183e32;color:white;border:0;border-radius:13px;padding:14px 20px;font:inherit;font-size:14px}</style>
+</head>
+<body>
+  <div id="root"><main class="tg-boot"><span class="tg-boot-mark" aria-hidden="true">V</span><h1>ViVoTech CRM</h1><p id="boot-status" role="status">Открываем ваше рабочее пространство…</p><button id="boot-retry" hidden onclick="location.reload()">Повторить загрузку</button></main></div>
+  <script>setTimeout(function(){if(document.documentElement.dataset.miniAppMounted!=='true'){document.getElementById('boot-status').textContent='Загрузка занимает слишком много времени. Проверьте соединение и повторите.';document.getElementById('boot-retry').hidden=false;}},15000);</script>
+</body>
+</html>

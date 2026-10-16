@@ -579,3 +579,35 @@ tbody tr:last-child td { border-bottom: 0; }
 .telegram-link-card { display: grid; gap: 14px; padding: 16px; border: 1px solid var(--primary-border); border-radius: 14px; background: var(--primary-soft); }
 .telegram-muted { color: var(--muted); font-size: 13px; line-height: 1.5; }
 @media (max-width: 760px) { .telegram-steps { grid-template-columns: 1fr; } .telegram-steps button { padding: 12px; } }
+
+/* Employee statistics, salary periods and weekly attendance totals. */
+.calendar-scroll { overflow-x: auto; }
+.calendar-with-totals { grid-template-columns: repeat(7, minmax(76px, 1fr)) minmax(140px, 1.2fr); min-width: 780px; }
+.calendar-week { display: contents; }
+.calendar-day.past { background-color: var(--surface-soft); color: var(--muted); opacity: .76; }
+.calendar-day.past:hover, .calendar-day.past:focus-visible { opacity: 1; }
+.calendar-day .day-plan { font-size: 11px; margin-top: 10px; }
+.calendar-day strong { margin-top: 4px; }
+.week-summary { border: 1px solid var(--line); border-radius: 10px; padding: 10px; display: flex; flex-direction: column; gap: 5px; background: var(--surface); }
+.week-summary > span:first-child { color: var(--muted); font-size: 10px; }
+.week-summary > strong { font-size: 16px; }
+.week-label { display: block; border-radius: 6px; padding: 5px 7px; font-size: 10px; line-height: 1.4; }
+.week-label.overtime, .week-label.balanced { color: var(--primary); background: var(--primary-soft); }
+.week-label.underwork { color: var(--warning); background: var(--warning-soft); }
+.salary-history td small { display: block; color: var(--muted); margin-top: 5px; }
+.money-cell { font-variant-numeric: tabular-nums; white-space: nowrap; font-weight: 700; }
+.salary-total { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 20px; margin-top: 16px; border-radius: 14px; color: var(--primary); background: var(--primary-soft); }
+.salary-total strong { font-size: 25px; font-variant-numeric: tabular-nums; }
+.pay-calculation-result { margin-top: 24px; }
+.pay-breakdown { display: grid; gap: 10px; margin: 18px 0; }
+.pay-breakdown > div { display: flex; justify-content: space-between; gap: 12px; }
+.pay-breakdown dt { color: var(--muted); }
+.pay-breakdown dd { margin: 0; font-weight: 700; white-space: nowrap; }
+.statistics-summary { margin-bottom: 24px; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); }
+.statistics-detail { margin-top: 24px; }
+.statistics-detail tbody tr:nth-child(even), .salary-history tbody tr:nth-child(even) { background: var(--surface-soft); }
+.employment-tag { display: inline-block; padding: 5px 9px; border-radius: 20px; background: var(--primary-soft); color: var(--primary); font-size: 11px; white-space: nowrap; }
+.schedule-month-preview { margin-top: 24px; }
+.schedule-month-preview .calendar-grid { grid-template-columns: repeat(7, minmax(38px, 1fr)); min-width: 0; }
+.schedule-month-preview .calendar-day { min-height: 65px; padding: 7px; }
+@media (max-width: 600px) { .salary-total { align-items: flex-start; flex-direction: column; } }
