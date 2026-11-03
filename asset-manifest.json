@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/vivotech_client-pages/static/css/main.47663e64.css",
-    "main.js": "/vivotech_client-pages/static/js/main.68bf80e8.js",
-    "static/js/3115.91097574.chunk.js": "/vivotech_client-pages/static/js/3115.91097574.chunk.js",
+    "main.js": "/vivotech_client-pages/static/js/main.033a5758.js",
+    "static/js/3115.3bcd834a.chunk.js": "/vivotech_client-pages/static/js/3115.3bcd834a.chunk.js",
     "static/js/3686.ea221871.chunk.js": "/vivotech_client-pages/static/js/3686.ea221871.chunk.js",
     "static/css/5299.c1084e58.chunk.css": "/vivotech_client-pages/static/css/5299.c1084e58.chunk.css",
-    "static/js/5299.6acc082a.chunk.js": "/vivotech_client-pages/static/js/5299.6acc082a.chunk.js",
+    "static/js/5299.bb5dc6aa.chunk.js": "/vivotech_client-pages/static/js/5299.bb5dc6aa.chunk.js",
     "static/js/7804.e1f6b25d.chunk.js": "/vivotech_client-pages/static/js/7804.e1f6b25d.chunk.js",
     "static/js/6764.99685bf9.chunk.js": "/vivotech_client-pages/static/js/6764.99685bf9.chunk.js",
     "static/css/3915.c1084e58.chunk.css": "/vivotech_client-pages/static/css/3915.c1084e58.chunk.css",
@@ -21,8 +21,8 @@
     "static/js/2932.566e3c03.chunk.js": "/vivotech_client-pages/static/js/2932.566e3c03.chunk.js",
     "static/js/9234.f8ea9dc0.chunk.js": "/vivotech_client-pages/static/js/9234.f8ea9dc0.chunk.js",
     "static/css/1166.e8d3f680.chunk.css": "/vivotech_client-pages/static/css/1166.e8d3f680.chunk.css",
-    "static/js/1166.c6089995.chunk.js": "/vivotech_client-pages/static/js/1166.c6089995.chunk.js",
-    "static/js/7211.a8a90d97.chunk.js": "/vivotech_client-pages/static/js/7211.a8a90d97.chunk.js",
+    "static/js/1166.3c25e1bd.chunk.js": "/vivotech_client-pages/static/js/1166.3c25e1bd.chunk.js",
+    "static/js/7211.7217ee22.chunk.js": "/vivotech_client-pages/static/js/7211.7217ee22.chunk.js",
     "static/js/2986.1a3e7422.chunk.js": "/vivotech_client-pages/static/js/2986.1a3e7422.chunk.js",
     "static/js/212.0b512c21.chunk.js": "/vivotech_client-pages/static/js/212.0b512c21.chunk.js",
     "static/js/3806.d6e18eb3.chunk.js": "/vivotech_client-pages/static/js/3806.d6e18eb3.chunk.js",
@@ -87,7 +87,7 @@
     "static/js/2479.a019b668.chunk.js": "/vivotech_client-pages/static/js/2479.a019b668.chunk.js",
     "static/css/599.1604aa9f.chunk.css": "/vivotech_client-pages/static/css/599.1604aa9f.chunk.css",
     "static/js/8841.a0e47fe8.chunk.js": "/vivotech_client-pages/static/js/8841.a0e47fe8.chunk.js",
-    "static/js/6036.fe4c1243.chunk.js": "/vivotech_client-pages/static/js/6036.fe4c1243.chunk.js",
+    "static/js/6036.089fa4e2.chunk.js": "/vivotech_client-pages/static/js/6036.089fa4e2.chunk.js",
     "static/js/5002.bb7ef3b8.chunk.js": "/vivotech_client-pages/static/js/5002.bb7ef3b8.chunk.js",
     "static/js/5054.d828acc6.chunk.js": "/vivotech_client-pages/static/js/5054.d828acc6.chunk.js",
     "static/media/logo-no-background.png": "/vivotech_client-pages/static/media/logo-no-background.ec250098a664495adb56.png",
@@ -95,6 +95,6 @@
   },
   "entrypoints": [
     "static/css/main.47663e64.css",
-    "static/js/main.68bf80e8.js"
+    "static/js/main.033a5758.js"
   ]
 }
