@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/vivotech_client-pages/static/css/main.cff240bb.css",
-    "main.js": "/vivotech_client-pages/static/js/main.6acd1729.js",
+    "main.css": "/vivotech_client-pages/static/css/main.dcf06925.css",
+    "main.js": "/vivotech_client-pages/static/js/main.ddd33421.js",
     "static/js/3115.364e4da7.chunk.js": "/vivotech_client-pages/static/js/3115.364e4da7.chunk.js",
     "static/js/3686.ea221871.chunk.js": "/vivotech_client-pages/static/js/3686.ea221871.chunk.js",
     "static/css/9708.c1084e58.chunk.css": "/vivotech_client-pages/static/css/9708.c1084e58.chunk.css",
-    "static/js/9708.06a6cfef.chunk.js": "/vivotech_client-pages/static/js/9708.06a6cfef.chunk.js",
+    "static/js/9708.472b7f23.chunk.js": "/vivotech_client-pages/static/js/9708.472b7f23.chunk.js",
     "static/js/7804.e1f6b25d.chunk.js": "/vivotech_client-pages/static/js/7804.e1f6b25d.chunk.js",
     "static/js/6764.405fd4d8.chunk.js": "/vivotech_client-pages/static/js/6764.405fd4d8.chunk.js",
     "static/css/9315.c1084e58.chunk.css": "/vivotech_client-pages/static/css/9315.c1084e58.chunk.css",
@@ -88,14 +88,14 @@
     "static/js/2479.a019b668.chunk.js": "/vivotech_client-pages/static/js/2479.a019b668.chunk.js",
     "static/css/599.1604aa9f.chunk.css": "/vivotech_client-pages/static/css/599.1604aa9f.chunk.css",
     "static/js/7209.2a086a9a.chunk.js": "/vivotech_client-pages/static/js/7209.2a086a9a.chunk.js",
+    "static/js/6036.3c16a63a.chunk.js": "/vivotech_client-pages/static/js/6036.3c16a63a.chunk.js",
     "static/js/5002.bb7ef3b8.chunk.js": "/vivotech_client-pages/static/js/5002.bb7ef3b8.chunk.js",
     "static/js/5054.d828acc6.chunk.js": "/vivotech_client-pages/static/js/5054.d828acc6.chunk.js",
-    "static/js/6036.07454ddd.chunk.js": "/vivotech_client-pages/static/js/6036.07454ddd.chunk.js",
     "static/media/logo-no-background.png": "/vivotech_client-pages/static/media/logo-no-background.ec250098a664495adb56.png",
     "index.html": "/vivotech_client-pages/index.html"
   },
   "entrypoints": [
-    "static/css/main.cff240bb.css",
-    "static/js/main.6acd1729.js"
+    "static/css/main.dcf06925.css",
+    "static/js/main.ddd33421.js"
   ]
 }
