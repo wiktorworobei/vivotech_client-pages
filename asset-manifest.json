@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/vivotech_client-pages/static/css/main.47663e64.css",
-    "main.js": "/vivotech_client-pages/static/js/main.75f5ce3b.js",
+    "main.js": "/vivotech_client-pages/static/js/main.2459af3f.js",
     "static/js/3115.3bcd834a.chunk.js": "/vivotech_client-pages/static/js/3115.3bcd834a.chunk.js",
     "static/js/3686.ea221871.chunk.js": "/vivotech_client-pages/static/js/3686.ea221871.chunk.js",
-    "static/css/8303.c1084e58.chunk.css": "/vivotech_client-pages/static/css/8303.c1084e58.chunk.css",
-    "static/js/8303.083e445d.chunk.js": "/vivotech_client-pages/static/js/8303.083e445d.chunk.js",
+    "static/css/9708.c1084e58.chunk.css": "/vivotech_client-pages/static/css/9708.c1084e58.chunk.css",
+    "static/js/9708.e17d9035.chunk.js": "/vivotech_client-pages/static/js/9708.e17d9035.chunk.js",
     "static/js/7804.e1f6b25d.chunk.js": "/vivotech_client-pages/static/js/7804.e1f6b25d.chunk.js",
     "static/js/6764.99685bf9.chunk.js": "/vivotech_client-pages/static/js/6764.99685bf9.chunk.js",
     "static/css/9315.c1084e58.chunk.css": "/vivotech_client-pages/static/css/9315.c1084e58.chunk.css",
@@ -88,7 +88,7 @@
     "static/js/2479.a019b668.chunk.js": "/vivotech_client-pages/static/js/2479.a019b668.chunk.js",
     "static/css/599.1604aa9f.chunk.css": "/vivotech_client-pages/static/css/599.1604aa9f.chunk.css",
     "static/js/1005.9597a80d.chunk.js": "/vivotech_client-pages/static/js/1005.9597a80d.chunk.js",
-    "static/js/6036.98ecf541.chunk.js": "/vivotech_client-pages/static/js/6036.98ecf541.chunk.js",
+    "static/js/6036.09e36009.chunk.js": "/vivotech_client-pages/static/js/6036.09e36009.chunk.js",
     "static/js/5002.bb7ef3b8.chunk.js": "/vivotech_client-pages/static/js/5002.bb7ef3b8.chunk.js",
     "static/js/5054.d828acc6.chunk.js": "/vivotech_client-pages/static/js/5054.d828acc6.chunk.js",
     "static/media/logo-no-background.png": "/vivotech_client-pages/static/media/logo-no-background.ec250098a664495adb56.png",
@@ -96,6 +96,6 @@
   },
   "entrypoints": [
     "static/css/main.47663e64.css",
-    "static/js/main.75f5ce3b.js"
+    "static/js/main.2459af3f.js"
   ]
 }
