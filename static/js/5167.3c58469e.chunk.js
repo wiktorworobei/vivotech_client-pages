@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkvivotech_crm_client||=[]).push([[5167],{5167(e,r,t){t.r(r),t.d(r,{default:()=>s});t(9950);var n=t(5353),a=t(2462),i=t(2242),u=t(5467),c=t(4414);function s(){const{user:e}=(0,n.A)();if(!e)return null;return(0,c.jsx)(a.A,{user:e,firmName:e.firmName,onSelect:e=>{(0,u.xm)(e),window.location.hash=i.av[e].path}})}}}]);
