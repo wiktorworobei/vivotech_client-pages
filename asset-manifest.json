@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/vivotech_client-pages/static/css/main.20c3dd53.css",
-    "main.js": "/vivotech_client-pages/static/js/main.881189b1.js",
+    "main.js": "/vivotech_client-pages/static/js/main.3c3484be.js",
     "static/js/45.9f9889a9.chunk.js": "/vivotech_client-pages/static/js/45.9f9889a9.chunk.js",
     "static/js/2881.1c477431.chunk.js": "/vivotech_client-pages/static/js/2881.1c477431.chunk.js",
     "static/css/1055.d35f04bc.chunk.css": "/vivotech_client-pages/static/css/1055.d35f04bc.chunk.css",
-    "static/js/1055.16439ea1.chunk.js": "/vivotech_client-pages/static/js/1055.16439ea1.chunk.js",
+    "static/js/1055.7d280c75.chunk.js": "/vivotech_client-pages/static/js/1055.7d280c75.chunk.js",
     "static/js/2890.983b929b.chunk.js": "/vivotech_client-pages/static/js/2890.983b929b.chunk.js",
     "static/css/695.d35f04bc.chunk.css": "/vivotech_client-pages/static/css/695.d35f04bc.chunk.css",
     "static/js/695.d778e609.chunk.js": "/vivotech_client-pages/static/js/695.d778e609.chunk.js",
@@ -95,6 +95,6 @@
   },
   "entrypoints": [
     "static/css/main.20c3dd53.css",
-    "static/js/main.881189b1.js"
+    "static/js/main.3c3484be.js"
   ]
 }
